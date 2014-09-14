@@ -1,0 +1,21 @@
+@CHARSET "ISO-8859-1";
+
+/* Inline */
+li {
+	display: inline
+}
+
+/* Block */
+#navigation {
+	display: block;
+	padding: 20px 10px;
+}
+
+#navigation {
+	visibility: visible
+}
+
+#navigation:hover {
+	visibility: hidden  
+}
+

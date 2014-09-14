@@ -1,0 +1,21 @@
+@CHARSET "ISO-8859-1";
+
+@import url(advanced-colors-style.css);
+
+@media screen {
+	p {
+		color: blue;
+		font-family: verdana, sans-serif;
+		font-size: 14px;
+		font-family: verdana, sans-serif;
+	}
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+}
+
+div {
+    font-family: myFirstFont;
+}

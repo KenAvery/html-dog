@@ -1,0 +1,15 @@
+@CHARSET "ISO-8859-1";
+
+h1 {
+	padding: 110px;
+	background-image: url(snazzy.jpg);
+	color: rgba(0, 255, 255, 1);
+}
+
+#smut {
+	color: hsl(36, 100%, 50%);
+}
+
+#rabbit {
+	background: hsla(0, 75%, 75%, 0.5)
+}

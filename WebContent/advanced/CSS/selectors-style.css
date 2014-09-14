@@ -1,0 +1,20 @@
+@CHARSET "ISO-8859-1";
+
+h1+p {
+	font-weight: bold
+}
+
+* {
+	color: blue; 
+	margin : 2px;
+	padding: 5px;
+}
+
+#contact {
+	color: red;
+	display: block;
+}
+
+#genus_examples>li {
+	border: 1px solid red
+}

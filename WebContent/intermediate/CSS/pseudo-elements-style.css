@@ -1,0 +1,37 @@
+@CHARSET "ISO-8859-1";
+
+ul:after {
+    content: url(../../beginning/CSS/applying-css/blackgoose.png);
+}
+
+p {
+    font-size: 12px;
+}
+
+p:first-letter {
+    font-size: 24px;
+    float: left;
+}
+
+p:first-line {
+	text-align: center;
+    font-weight: bold;
+}
+
+blockquote:before {
+    content: open-quote;
+}
+
+blockquote:after {
+    content: close-quote;
+}
+
+li:before {
+    content: "POW! ";
+}
+
+li:before {
+    content: "POW! ";
+    background: red;
+    color: #fc0;
+}

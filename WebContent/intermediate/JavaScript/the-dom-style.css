@@ -1,0 +1,33 @@
+@CHARSET "ISO-8859-1";
+
+#page-header {
+	color: #ffc;
+    background-color: #900;
+    font-size: 2em;
+    margin: 0;
+    margin-bottom: 7px;
+    padding: 4px;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 0.5em;
+    border-bottom-style: solid;
+    border-bottom-width: 0.5em;
+    border-bottom-color: #c00;
+}
+
+li {
+    color: #900;
+    font-style: italic;
+}
+
+.output-text {
+	color: #8000ff;
+	font-size: 1.5em;
+	font-style: italic;
+}
+
+.btn {
+	color: #8000ff;
+	font-size: 1.5em;
+	font-style: italic;
+}

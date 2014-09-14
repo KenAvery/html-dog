@@ -1,0 +1,6 @@
+@CHARSET "ISO-8859-1";
+
+p { color: red }
+p { color: blue }
+
+div p {color: red}

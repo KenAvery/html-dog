@@ -1,0 +1,18 @@
+@CHARSET "ISO-8859-1";
+
+a.color:link {
+    color: hsl(36,50%,50%);
+}
+
+a.color:hover {
+    color: hsl(36,100%,50%);
+}
+
+a.transition:link {
+    transition: all .5s linear 0;
+    color: hsl(36,50%,50%);
+}
+
+a.transition:hover {
+    color: hsl(36,50%,90%);
+}

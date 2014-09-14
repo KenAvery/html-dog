@@ -1,0 +1,42 @@
+@CHARSET "ISO-8859-1";
+
+/* Margins and Padding
+p {
+    margin-top: 1px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+} */
+
+/* The above can be summed up as */
+.margins {
+    margin: 1px 5px 10px 20px;
+}
+
+/* Note: p {padding: 1em, 10em} is short for 
+top/bottom = 1em and right/left = 10em */
+
+/* Borders 
+p {
+    border-width: 1px;
+    border-color: red;
+    border-style: solid;
+} */
+
+/* The above can be summed up as */
+.borders {
+    border: 1px red solid;
+}
+
+/* this can also be expressed for
+border-top, border-right ... etc. */
+
+/* Fonts */
+.fonts {
+    font: 14px/1.5 "Times New Roman", times, serif;
+    padding: 30px 10px;
+    border: 1px black solid;
+    border-width: 1px 5px 5px 1px;
+    border-color: red green blue yellow;
+    margin: 10px 50px;
+}

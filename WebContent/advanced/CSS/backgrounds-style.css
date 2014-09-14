@@ -1,0 +1,9 @@
+@CHARSET "ISO-8859-1";
+
+ol {
+	background-image: url(theother.png), url(that.png), url(that.png);
+}
+
+body {
+	background: url(bg.png), url(bullet.png) 0 50% no-repeat, url(arrow.png) right no-repeat;
+}

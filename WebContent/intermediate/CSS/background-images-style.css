@@ -1,0 +1,5 @@
+@CHARSET "ISO-8859-1";
+
+body {
+    background: cyan url("../../beginning/CSS/applying-css/blackgoose.png") repeat top left;
+}

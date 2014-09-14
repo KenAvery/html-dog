@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Embedded Content</title>
+</head>
+<body>
+
+	<!-- Video Controls-->
+	<div>
+		<video src="kitties.mp4" controls></video>
+	</div>
+
+	<!-- Video Autoplay -->
+	<div>
+		<video src="kitties.mp4" autoplay></video>
+	</div>
+
+	<!-- Video Autoplay with Controls -->
+	<div>
+		<video src="kitties.mp4" controls autoplay></video>
+	</div>
+
+	<!-- Video with loop, muted, autoplay and controls -->
+	<div>
+		<video src="kitties.mp4" width="300" height="200" loop muted autoplay
+			controls></video>
+	</div>
+
+	<!-- Poster (placeholder image) -->
+	<div>
+		<video src="kitties.mp4" poster="fluffy.jpg" controls></video>
+	</div>
+
+	<!-- Fall-back content -->
+	<div>
+		<video src="kitties.mp4" controls>
+			<img src="hahahaha.jpg" alt="Hilarious cat and caption saying 'soz'.">
+		</video>
+	</div>
+	<!-- Alternative content -->
+	<div>
+		<video controls>
+			<source src="kitties.mp4" type="video/mp4; codecs='avc1, mp4a'">
+			<source src="kitties.webm" type="video/webm; codecs='vp8.0, vorbis'">
+			<p>Browser no likey HTML 5.</p>
+		</video>
+	</div>
+
+	<!-- Audio -->
+	<div>
+		<audio src="meow_mix.mp3" controls>Your stupid browser doesn't support HTML 5 audio.</audio>
+	</div>
+
+	<!-- Canvas -->
+	<div>
+		<canvas id="wittykitty" width="800" height="450">
+    <!-- Fall-back content here, just like with video and audio -->
+</canvas>
+	</div>
+
+
+</body>
+</html>

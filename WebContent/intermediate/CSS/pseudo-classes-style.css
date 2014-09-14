@@ -1,0 +1,31 @@
+@CHARSET "ISO-8859-1";
+
+/* Links */
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+/* Dynamic Pseudo Classes */
+a:active {
+    color: red;
+}
+
+a:hover {
+    text-decoration: none;
+    color: blue;
+    background-color: yellow;
+}
+
+input:focus, textarea:focus {
+    background: #eee;
+}
+
+/* First Children */
+p:first-child {
+    font-weight: bold;
+    font-size: 40px;
+}

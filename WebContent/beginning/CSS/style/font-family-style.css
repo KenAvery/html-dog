@@ -1,0 +1,30 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 14px;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+a {
+	text-decoration: none;
+}
+
+strong {
+	font-style: italic;
+	text-transform: uppercase;
+}
+
+p {
+    letter-spacing: 0.5em;
+    word-spacing: 2em;
+    line-height: 1.5;
+    text-align: center;
+}

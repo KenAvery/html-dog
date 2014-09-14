@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Accessible Forms</title>
+</head>
+<body>
+
+	<!-- Labels -->
+	<form>
+		<label for="yourName">Your Name</label> <input name="yourName"
+			id="yourName">
+	</form>
+
+	<form action="somescript.php">
+		<fieldset>
+			<legend>Name</legend>
+			<p>
+				First name <input name="firstName">
+			</p>
+			<p>
+				Last name <input name="lastName">
+			</p>
+		</fieldset>
+		<fieldset>
+			<legend>Address</legend>
+			<p>
+				Address
+				<textarea name="address"></textarea>
+			</p>
+			<p>
+				Postal code <input name="postcode">
+			</p>
+		</fieldset>
+	</form>
+
+	<!-- Option Groups -->
+	<select name="country">
+		<optgroup label="Africa">
+			<option value="gam">Gambia</option>
+			<option value="mad">Madagascar</option>
+			<option value="nam">Namibia</option>
+		</optgroup>
+		<optgroup label="Europe">
+			<option value="fra">France</option>
+			<option value="rus">Russia</option>
+			<option value="uk">UK</option>
+		</optgroup>
+		<optgroup label="North America">
+			<option value="can">Canada</option>
+			<option value="mex">Mexico</option>
+			<option value="usa">USA</option>
+		</optgroup>
+	</select>
+
+	<!-- Navigating Fields -->
+	<input name="firstName" accesskey="f" tabindex="1">
+</body>
+</html>
